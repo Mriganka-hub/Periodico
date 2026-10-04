@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Interactive Periodic Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Periodico</h1>
+  <p class="sub">Click an element for details. Search by name, symbol or number; click a legend chip to filter.</p>
+
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search e.g. gold, Fe, 26" aria-label="Search elements">
+  </div>
+  <div class="bar" id="legend"></div>
+
+  <div class="layout">
+    <div id="info"></div>
+    <div class="wrap"><div id="grid"></div></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
